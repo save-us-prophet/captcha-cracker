@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "captcha-cracker-api"
 version = "0.1.0"
-description = ""
+description = "challenge to decipher the CAPTCHA"
 authors = ["SANGWOO PARK <prophet0915@gmail.com>"]
 readme = "README.md"
 
@@ -14,7 +14,6 @@ pillow = "9.5"
 uvicorn = "0.14"
 protobuf = "3.19"
 python-multipart = "^0.0.12"
-
 
 [build-system]
 requires = ["poetry-core"]
