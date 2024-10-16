@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "captcha-cracker-api"
+version = "0.1.0"
+description = ""
+authors = ["SANGWOO PARK <prophet0915@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+captchacracker = "^0.0.7"
+tensorflow = "2.5"
+fastapi = "0.65"
+pillow = "9.5"
+uvicorn = "0.14"
+protobuf = "3.19"
+python-multipart = "^0.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
